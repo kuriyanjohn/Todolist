@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    font-family: sans-serif;
+}
+.todo-container{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul{
+    background-color: aliceblue;
+    min-height: 200px;
+    padding: 10px;
+    text-align: left;
+}
+
+ul li{
+    list-style: none;
+}
