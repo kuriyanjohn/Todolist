@@ -12,6 +12,17 @@ body{
     text-align: center;
 }
 
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
+
+.input-section {
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+}
 
 .input-section input{
     border-radius: 5px;
@@ -22,12 +33,24 @@ body{
 }
 
 ul{
-    background-color: aliceblue;
-    min-height: 200px;
-    padding: 10px;
     text-align: left;
+    padding: 0;
 }
 
 ul li{
+    display: flex;
     list-style: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+}
+
+input::placeholder{
+    color: silver;
 }
